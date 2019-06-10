@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="style.css" rel="stylesheet" type="text/css" 
+    />
+  </head>
+
+  <body>
+    <div class="topnav" id="myTopnav">
+      <a href="index.html">Home</a>
+      <a href="resume.html">Résumé</a>
+      <div class="dropdown">
+        <button class="dropbtn">Projects 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="project1.html">Data</a>
+          <a href="project2.html">Web Dev</a>
+          <a href="project3.html">Security</a>
+        </div>
+      </div> 
+      <a href="contact.html">Contact</a>
+      <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+    <section class="jumbotron2">
+      <div class="container">
+        <div class="row text-center">
+          <h2>Web Development</h2>
+          <p>The second project I worked on was web development, where my teammates and I had to fix the code for the Maxx Power website and make our own changes to it. We also had to have it ready for the Data and Security team.<br><br><img src="https://pbs.twimg.com/media/D8tQTIiWwAAUEIj.png"style="width:570px;height:320px;></p>
+        </div>
+      </div>
+    </section>
+    <script>
+    function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+  </script>
+  </body>
+</html>

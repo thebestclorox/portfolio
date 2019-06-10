@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="style.css" rel="stylesheet" type="text/css" 
+    />
+  </head>
+
+  <body>
+    <div class="topnav" id="myTopnav">
+      <a href="index.html">Home</a>
+      <a href="resume.html">Résumé</a>
+      <div class="dropdown">
+        <button class="dropbtn">Projects 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="project1.html">Data</a>
+          <a href="project2.html">Web Dev</a>
+          <a href="project3.html">Security</a>
+        </div>
+      </div> 
+      <a href="contact.html">Contact</a>
+      <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+    <section class="jumbotron2">
+        <div class="w3-content w3-display-container" style="max-width:700px">
+          <h2>Security</h2>
+          <p>The final project was about security. We had to find a password management system for the MaxxPower website and create slides explaining why it was chosen.<br><br><img src="https://pbs.twimg.com/media/D8taYjPXYAAdLu-.png" style="width:565px;height:300px;></p>
+        </div>
+      </div>
+    </section>
+    <script>
+    function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+  </script>
+  </body>
+</html>
